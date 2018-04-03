@@ -9,6 +9,9 @@ import changeVideoList from '../actions/videoList.js';
 import exampleVideoData from '../data/exampleVideoData.js';
 import store from '../store/store.js';
 
+import { connect } from 'react-redux';
+import { handleVideoSearch } from '../actions/search';
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
